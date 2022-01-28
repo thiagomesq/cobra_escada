@@ -4,13 +4,14 @@ Teste número 2 onde deve ser feito o jogo de tabuleiro Cobras e Escadas
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+O jogo já inicia ao rodar o projeto, a camêra sempre irá apontar para quem o avatar do jogador que estiver com a vez.
 
-A few resources to get you started if this is your first Flutter project:
+O avatar azul é o primeiro player e o vermelho o segundo player, ao clicar o botão jogar no canto inferior direito os
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+dados serão rolados o avatar irá para a posição referente aos números sorteados e as mensagens irão aparecer na tela,
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Ao cair em uma escada ou cobra aparecerão as seguintes mensagens "Oba! Casa com escada, você irá para a casa X" e 
+
+"Essa não! Casa com cobra, você irá voltar para a casa X", caso um jogador exceda o número de casas para chegar na casa 100 
+
+ele irá voltar o número restante e quando um jogador chegar na casa 100 o jogo encerra.
